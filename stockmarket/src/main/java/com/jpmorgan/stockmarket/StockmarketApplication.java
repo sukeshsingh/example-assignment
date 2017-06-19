@@ -119,7 +119,7 @@ public class StockmarketApplication implements CommandLineRunner{
         stockService.save(new Stock("POP", StockType.COMMON, 8, 0, 100));
         stockService.save(new Stock("ALE", StockType.COMMON, 23, 0, 60));
         stockService.save(new Stock("GIN", StockType.PREFERRED, 8, 2, 100));
-        stockService.save(new Stock("JOE", StockType.PREFERRED, 13, 0, 250));
+        stockService.save(new Stock("JOE", StockType.COMMON, 13, 0, 250));
     }
 
     /**
