@@ -28,18 +28,13 @@ import java.util.Scanner;
 @SpringBootApplication
 public class StockmarketApplication implements CommandLineRunner{
 
-
 	private static StockService stockService;
-
-
 	private static TradeService tradeService;
-
-    private static Scanner scanner;
+        private static Scanner scanner;
 
 	public static void main(String[] args) {
 		SpringApplication.run(StockmarketApplication.class, args);
 	}
-
 
 	@Override
 	public void run(String... args) throws Exception {
